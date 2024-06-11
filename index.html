@@ -35,8 +35,10 @@
     </div>
 
     <div id="Game"> 
-        <button id="startGame">Start Game</button>
-        <button id="newGame">New Game</button>
+
+        <button id="startGame" onclick="startGame()">Start Game</button>
+        <button id="newGame" onclick="newGame()">New Game</button>
+        <button id="rollDie" onclick="rollDie()">Roll Die</button>
 
         <br><br>
 
@@ -47,6 +49,9 @@
         <input type="text" id="player2" name="player2"><br>
 
         <br>
+
+        <p id="dieRoll">Die Roll: </p>
+        <p id="accumulatedScore">Accumulated Score: </p>
 
         <table id="Table">
         <tr>
