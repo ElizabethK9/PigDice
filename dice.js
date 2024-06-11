@@ -35,7 +35,10 @@ class Game {
         this.roundScore = 0;
         document.getElementById('total').value = '0';
         document.getElementById('current').textContent = 'Player ' + (this.activePlayer + 1);
+        // Add this line to display the current player's turn on the webpage
+        document.getElementById('display_turn').textContent = 'It\'s Player ' + (this.activePlayer + 1) + '\'s turn';
     }
+    
 
     checkWin() {
         if (this.players[this.activePlayer].score >= 100) {
