@@ -1,0 +1,28 @@
+#Introduction {
+    /* This will add an outline to the box */
+    border: 5px solid black;
+    /* This will compress the content into the box */
+    padding: 20px;
+    /* This will center the box */
+    margin: auto;
+    /* This will change the background color of the box */
+    background-color: white;
+    /* This will change the width of the box */
+    width: 50%;
+}
+
+h1, h2 {
+    /* This will change the text color */
+    color: blue;
+    /* This will align the text to the center */
+    text-align: center;
+}
+
+p {
+    /* This will change the text color */
+    color: #000000;
+    /* This will align the text to the left */
+    text-align: left;
+
+    font-size: x-large;
+}
